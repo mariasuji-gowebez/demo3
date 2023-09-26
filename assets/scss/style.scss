@@ -1,0 +1,594 @@
+@import "./abstracts/variables";
+@import "./mixins/breakpoints";
+@import "./abstracts/common";
+@import "./includes/header";
+@import "./includes/footer";
+@import "./includes/service";
+@import "./includes/pricing";
+@import "./includes/portfolio";
+@import "./includes/contact";
+@import "./includes/about";
+
+// banner page -index
+
+
+// positioning heading
+.positioning-rel {
+    position: relative;
+}
+
+.positioning-ab {
+    position: absolute;
+    font-size: 30px !important;
+    right: 25% !important;
+    top: 430px !important;
+    letter-spacing: 6px !important;
+    background: -webkit-linear-gradient(#eee, rgba(255, 255, 255, 0.767));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+// about section
+.positioningab-rel {
+    position: relative;
+    letter-spacing: 3px;
+    font-size: 60px !important;
+    font-family: "Sulphur Point";
+}
+
+.spantag1 {
+    font-size: 60px !important;
+    font-family: "Sulphur Point";
+    display: inline-block;
+    letter-spacing: 3px;
+    border-bottom: 1px dotted white;
+    border-left: 1px dotted white;
+}
+
+.spantag2 {
+    font-size: 60px !important;
+    font-family: "Sulphur Point";
+    display: inline-block;
+    letter-spacing: 3px;
+    border-top: 1px dotted white;
+    border-right: 1px dotted white;
+}
+
+.positioningab-ab {
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 3px;
+    right: 450px;
+    top: 110px;
+    letter-spacing: 3px;
+    background: -webkit-linear-gradient(#eee, rgba(255, 255, 255, 0.767));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Sulphur Point";
+}
+.spantag1-heading {
+    font-size: 25px !important;
+    font-family: "Sulphur Point";
+    display: inline-block;
+    letter-spacing: 3px;
+    border-bottom: 1px dotted;
+    border-left: 1px dotted;
+}
+.spantag2-heading {
+    font-size: 25px !important;
+    font-family: "Sulphur Point";
+    display: inline-block;
+    letter-spacing: 3px;
+    border-top: 1px dotted;
+    border-right: 1px dotted;
+}
+.spantag3-heading {
+    font-size: 25px !important;
+    font-family: "Sulphur Point";
+    display: inline-block;
+    letter-spacing: 3px;
+}
+.positioningser3-rel {
+    position: relative;
+    letter-spacing: 3px;
+    font-size: 60px !important;
+    font-family: "Sulphur Point";
+}
+
+.positioningser3-ab {
+    position: absolute;
+    font-size: 25px;
+    bottom: -990px;
+    left: 460px;
+    letter-spacing: 3px;
+    background: -webkit-linear-gradient(#eee, rgba(255, 255, 255, 0.767));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Sulphur Point";
+}
+
+.positioningspric4-rel {
+    position: relative;
+    letter-spacing: 3px;
+    font-size: 60px !important;
+    font-family: "Sulphur Point";
+}
+
+.positioningspric4-ab {
+    position: absolute;
+    bottom: -1820px;
+    left: 290px;
+    background: -webkit-linear-gradient(white, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Sulphur Point";
+}
+
+.positioningsprice-rel {
+    position: relative;
+    letter-spacing: 3px;
+    font-size: 60px !important;
+    font-family: "Sulphur Point";
+}
+
+.positioningsprice-ab {
+    position: absolute;
+    font-size: 22px;
+    bottom: -2770px;
+    left: 280px;
+    background: -webkit-linear-gradient(white, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Sulphur Point";
+}
+
+.perfect-text {
+    font-size: 30px;
+    letter-spacing: 10px;
+    color: rgba(255, 255, 255, 0.651);
+}
+
+// carousel image
+
+.figure-img {
+    filter: brightness(40%);
+}
+
+.imgcolorchange {
+    filter: brightness(100%);
+}
+
+// service section
+.para-textcolorser {
+    font-family: "Sulphur Point", sans-serif !important;
+    text-align: justify !important;
+    font-size: 17px;
+    word-spacing: 3px;
+}
+
+// portfolio section carousel
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    border: 2px solid white;
+    width: 12px;
+    height: 13px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-right: 6px;
+    margin-left: 6px;
+    text-indent: -999px;
+}
+
+.carousel-indicators {
+    position: relative !important;
+}
+
+// contact section
+
+.contact-border-fixing {
+    border-bottom: 2px dotted white !important;
+}
+
+.para-textcolorcon {
+    font-family: "Sulphur Point", sans-serif !important;
+    text-align: justify !important;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+
+// background image fixed
+.background-image {
+    background-image: url("/public/images/section\ 1.jpg") !important;
+    background-attachment: fixed !important;
+    height: 100vh !important;
+    width: auto;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: center !important;
+    background-position: center center !important;
+}
+
+.background2-image {
+    background-image: url("/public/images/Section\ 2\ About\ Us.jpg") !important;
+    background-position: center center !important;
+    width: auto;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: center !important;
+}
+
+.background3-image {
+    background-image: url("/public/images/Section\ 3\ Services.jpg") !important;
+
+    width: auto;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: center !important;
+    background-position: center center !important;
+}
+
+.background4-image {
+    background-image: url("/public/images/Section\ 4\ Pricing.jpg") !important;
+
+    background-position: center center !important;
+    width: auto;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: center !important;
+}
+
+.background6-image {
+    background-image: url("/public/images/Section\ 6\ Footer\ \(2\).jpg") !important;
+    height: auto !important;
+    background-position: center center !important;
+    width: auto;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: center !important;
+    background-position: center center !important;
+}
+
+.background5-image {
+    background-image: url("/public/images/Section\ 5\ Portfolio.jpg") !important;
+
+    background-position: center center !important;
+    width: auto;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: center !important;
+    background-position: center center !important;
+}
+
+.perfect-text {
+    font-size: 30px;
+    letter-spacing: 10px;
+    color: rgba(255, 255, 255, 0.651);
+}
+
+.para-textcolor {
+    font-family: "Sulphur Point", sans-serif !important;
+    text-align: justify !important;
+    font-size: 22px;
+    line-height: 2;
+    word-spacing: 3px;
+}
+
+.para-textcolorpric {
+    font-family: "Sulphur Point", sans-serif !important;
+    text-align: justify !important;
+    font-size: 20px;
+    line-height: 2;
+    word-spacing: 3px;
+    color: rgb(255, 255, 255) !important;
+}
+
+.BORDER-FIX {
+    border: 1px dotted white;
+    border-radius: 5px;
+}
+
+.service-testfont {
+    font-size: 65px;
+    letter-spacing: 2px;
+    font-family: "Sulphur Point", sans-serif !important;
+}
+
+// section4
+.backgro-colorchange {
+    background-color: rgba(255, 255, 255, 0.164);
+}
+
+.headin-main {
+    font-size: 100px !important;
+    font-family: Impact;
+}
+.headin-main-mobsize {
+    font-size: 25px !important;
+    font-family: Impact;
+}
+
+.positioning-rel {
+    position: relative;
+}
+
+.positioning-ab {
+    position: absolute;
+    font-size: 25px;
+    right: 370px;
+    top: 100px;
+    letter-spacing: 4px;
+    background: -webkit-linear-gradient(#eee, rgba(255, 255, 255, 0.767));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.headin-main {
+    font-size: 65px;
+    font-family: Impact;
+}
+
+@media (max-width: 767px) {
+    .positioning-ab {
+        font-size: 20px;
+        right: 80px;
+        top: 70px;
+    }
+
+    .headin-main {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .positioning-ab {
+        font-size: 25px;
+        right: 230px;
+        top: 70px;
+        letter-spacing: 2px;
+    }
+
+    .headin-main {
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 5550px) and (max-width: 570px) {
+    .positioning-ab {
+        font-size: 25px;
+        letter-spacing: 2px;
+        right: 100px;
+        top: 60px;
+    }
+
+    .headin-main {
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 571px) and (max-width: 594px) {
+    .positioning-ab {
+        font-size: 25px;
+        letter-spacing: 2px;
+        right: 100px;
+        top: 70px;
+    }
+
+    .headin-main {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 450px) {
+    .positioning-ab {
+        font-size: 15px;
+        letter-spacing: 2px;
+        right: 60px;
+        top: 60px;
+    }
+}
+
+.positioning2-rel {
+    position: relative;
+}
+
+.positioning2-ab {
+    position: absolute;
+    right: 280px;
+    top: 100px;
+    letter-spacing: 4px;
+    background: -webkit-linear-gradient(#eee, rgba(255, 255, 255, 0.767));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.headin2-main {
+    font-family: "Sulphur Point", sans-serif !important;
+    font-size: 40px;
+}
+
+// btn gradient  index
+.btn-gradienvlr {
+    background: linear-gradient(to bottom, #ff0dff, #ff1090);
+    color: white;
+    font-family: "Sulphur Point", sans-serif !important;
+}
+
+// image border dark
+.bord-imgfix {
+    border: 5px solid white;
+}
+
+// about
+.backgroundabout1-image {
+    background-image: url("/public/images/Section\ 1\ \(2\).jpg") !important;
+    background-position: center center !important;
+    width: auto;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: center !important;
+}
+
+
+.backgroundabout3-image {
+    background-image: url("/public/images/sec\ 3\ our\ story\ \(1\).jpg") !important;
+    height: 100vh !important;
+    background-position: center center !important;
+    width: auto;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: center !important;
+}
+
+// heading
+.positioningabout-head-rel {
+    position: relative;
+    letter-spacing: 6px;
+    font-size: 100px !important;
+    font-family: "impact";
+}
+
+.spantag-aboutpage1 {
+    font-size: 100px !important;
+    font-family: "impact";
+    display: inline-block;
+    letter-spacing: 6px;
+    border-bottom: 1px dotted white;
+    border-left: 1px dotted white;
+}
+
+.spantag-aboutpage2 {
+    font-size: 80px !important;
+    font-family: "impact";
+    display: inline-block;
+    letter-spacing: 6px;
+    border-top: 1px dotted white;
+    border-right: 1px dotted white;
+}
+
+.positioningabout-head-ab {
+    position: absolute;
+    font-size: 26px;
+    letter-spacing: 3px;
+    right: 680px;
+    top: 480px;
+    letter-spacing: 6px;
+    background: -webkit-linear-gradient(#eee, rgba(255, 255, 255, 0.938));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Sulphur Point";
+}
+
+.spantagabout1 {
+    font-size: 60px !important;
+    font-family: "Times New Roman", Times, serif;
+    display: inline-block;
+    letter-spacing: 3px;
+    border-bottom: 1px dotted white;
+    border-left: 1px dotted white;
+}
+
+.spantagabout2 {
+    font-size: 60px !important;
+    font-family: "Times New Roman", Times, serif;
+    display: inline-block;
+    letter-spacing: 3px;
+    border-top: 1px dotted white;
+    border-right: 1px dotted white;
+}
+
+.positioningabout-rel {
+    position: relative;
+    letter-spacing: 3px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 60px !important;
+}
+
+.positioningabout-ab {
+    position: absolute;
+    font-size: 20px;
+    left: 350px;
+    bottom: 50px;
+    letter-spacing: 4px;
+    background: -webkit-linear-gradient(#eee, rgba(255, 255, 255, 0.767));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.spantagabout1 {
+    font-size: 60px !important;
+    font-family: "Times New Roman", Times, serif;
+    display: inline-block;
+    letter-spacing: 3px;
+    border-bottom: 1px dotted white;
+    border-left: 1px dotted white;
+}
+
+.spantagabout2 {
+    font-size: 60px !important;
+    font-family: "Times New Roman", Times, serif;
+    display: inline-block;
+    letter-spacing: 3px;
+    border-top: 1px dotted white;
+    border-right: 1px dotted white;
+}
+
+.positioningab-stry-rel {
+    position: relative;
+    letter-spacing: 3px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 60px !important;
+}
+
+.positioningab-stry-ab {
+    position: absolute;
+    font-size: 20px;
+    bottom: -830px;
+    left: 340px;
+    letter-spacing: 4px;
+    background: -webkit-linear-gradient(#eee, rgba(255, 255, 255, 0.767));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-positioning-rel {
+    position: relative;
+}
+
+.about-positioning-rel {
+    position: relative;
+}
+
+.about-positioning-ab {
+    position: absolute;
+    font-size: 21px;
+    right: 425px;
+    top: 110px;
+    letter-spacing: 4px;
+    background: -webkit-linear-gradient(#eee, rgba(255, 255, 255, 0.767));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-background2-image {
+    background-color: rgba(31, 12, 12, 0.884);
+}
+
+// position relative
+// .imgposition-rel {
+//     position: relative;
+// }
+
+// .imgposition-abs {
+//     position: absolute;
+//     right: -60px;
+//     top: 60px;
+// }
+
+.BORDER-FIXfooter {
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.63);
+}
+
+// servicepage

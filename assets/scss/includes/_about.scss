@@ -1,0 +1,70 @@
+.text-bolder {
+  font-size: 80px;
+  font-family: "impact";
+  margin: 0;
+  padding: 0;
+}
+.headinabout-main {
+  font-size: 80px !important;
+  font-family: "impact";
+  display: inline-block;
+  letter-spacing: 6px;
+  margin: 0;
+  padding: 0;
+}
+
+.positioningabout-absolute  {
+  position: absolute;
+  top: 160px;
+  font-size: 25px;
+  left:50% !important;
+  background: -webkit-linear-gradient(#eee, rgba(255, 255, 255, 0.767));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.positioningabout-rel {
+  position: relative;
+}
+.headin-main-mobsize {
+  font-size: 25px !important;
+  font-family: Impact;
+}
+.spantagabout1-heading {
+  font-size: 30px !important;
+  font-family: "Sulphur Point";
+  display: inline-block;
+  letter-spacing: 3px;
+  border-bottom: 1px dotted;
+  border-left: 1px dotted;
+}
+.spantagabout2-heading {
+  font-size: 30px !important;
+  font-family: "Sulphur Point";
+  display: inline-block;
+  letter-spacing: 3px;
+  border-top: 1px dotted;
+  border-right: 1px dotted;
+}
+.spantagabout3-heading {
+  font-size: 30px !important;
+  font-family: "Sulphur Point";
+  display: inline-block;
+  letter-spacing: 3px;
+
+}
+
+.positioningabout1-absolute {
+position: absolute;
+top: 140px;
+font-family: "Sulphur Point";
+letter-spacing: 6px;
+font-size:25px;
+left:50% !important;
+background: -webkit-linear-gradient(#eee, rgba(255, 255, 255, 0.993));
+-webkit-background-clip: text;
+
+}
+.image-boxshadow-fix {
+  box-shadow: -45px -50px  rgb(31, 12, 12);
+
+}

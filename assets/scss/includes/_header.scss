@@ -1,0 +1,34 @@
+.accordion-button:not(.collapsed) {
+    color: white !important;
+    background-color: black !important;
+    box-shadow:  none !important;
+}
+.top-bar{
+    background-color: $topbar-color;
+}
+.navbar-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.navlink-text {
+    font-family: "Sulphur Point", sans-serif !important;
+}
+
+.text-smallinnav {
+    font-size: 14px !important;
+    letter-spacing: 2px !important;
+}
+
+.active-navbarlink {
+    background: -webkit-linear-gradient(90deg, #FD006A 50%, #D700B5 100%);
+    -webkit-background-clip: text;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    -webkit-text-fill-color: transparent;
+}
+// hover effect
+.navbar-text:hover {
+    background: -webkit-linear-gradient(90deg, #FD006A 50%, #D700B5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}

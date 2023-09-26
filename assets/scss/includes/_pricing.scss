@@ -1,0 +1,135 @@
+.backgroundpric1-image {
+  background-image: url("/public/images/Section\ 1\ \(5\).jpg") !important;
+  background-position: center center !important;
+  width: auto;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  position: center !important;
+}
+.headinprice-main {
+  font-size: 65px;
+  font-family: Impact;
+}
+.backgroundprices2-image {
+  background-image: url("/public/images/Section\ 2\ \(1\).jpg") !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  position: center !important;
+}
+.backgroundprice3-image {
+  background-image: url("/public/images/Section\ 3\ \(1\).jpg") !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  position: center !important;
+}
+
+.spantagprice1 {
+  font-size: 35px !important;
+  font-family: "Times New Roman", Times, serif;
+  display: inline-block;
+  letter-spacing: 3px;
+  border-bottom: 1px dotted white;
+  border-left: 1px dotted white;
+}
+.spantagprice2 {
+  font-size: 40px !important;
+  font-family: "Times New Roman", Times, serif;
+  display: inline-block;
+  letter-spacing: 3px;
+  border-top: 1px dotted white;
+  border-right: 1px dotted white;
+}
+
+.positioningprice-rel {
+  position: relative;
+  letter-spacing: 3px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px !important;
+}
+
+.para-textcolorprice {
+  font-family: "Sulphur Point", sans-serif !important;
+  background-color: rgba(255, 68, 0, 0.432);
+  font-size: 17px;
+  letter-spacing: 3px;
+}
+
+.para-textcolorprice2 {
+  font-family: "Sulphur Point", sans-serif !important;
+  background-color: rgba(255, 68, 0, 0.253);
+  font-size: 17px;
+  letter-spacing: 3px;
+}
+.price-border-fixing {
+  border-bottom: 2px dotted white !important;
+}
+
+.para-textcolorpric {
+  font-family: "Sulphur Point", sans-serif !important;
+  text-align: justify !important;
+  font-size: 20px;
+  line-height: 2;
+  word-spacing: 3px;
+  color: rgb(255, 255, 255) !important;
+}
+.backgro-colorchangeprice {
+  background-color: rgba(255, 68, 0, 0.226);
+}
+.text-bolder {
+  font-size: 100px;
+  font-family: "impact";
+  margin: 0;
+  padding: 0;
+}
+.headinprice-main {
+  font-size: 100px !important;
+  font-family: "impact";
+  display: inline-block;
+  letter-spacing: 6px;
+  margin: 0;
+  padding: 0;
+}
+.headinprice-main {
+  font-size: 100px !important;
+  font-family: "impact";
+  display: inline-block;
+  letter-spacing: 6px;
+  margin: 0;
+  padding: 0;
+}
+.positioningPRICE-ab {
+  position: absolute;
+  top: 180px;
+  font-size: 25px;
+  right: 490px;
+  background: -webkit-linear-gradient(#eee, rgba(255, 255, 255, 0.767));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.positioningPRICE-rel {
+  position: relative;
+}
+.positioningaPRICING-absolute  {
+  position: absolute;
+  top: 150px;
+  font-size: 25px;letter-spacing: 6px;
+  left:50% !important;
+  background: -webkit-linear-gradient(#eee, rgba(255, 255, 255, 0.767));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+// border hover
+.para-textcolorprice {
+  border: 2px solid  rgba(255, 68, 0, 0.432);
+  transition: border-color 0.3s;
+}
+
+.para-textcolorprice:hover {
+  border-color:white; 
+}
+.row {
+ margin-left:0 !important; 
+ margin-right: 0 !important;
+}

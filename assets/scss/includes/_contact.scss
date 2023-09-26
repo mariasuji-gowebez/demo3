@@ -1,0 +1,40 @@
+.backgroundimagecontactimg-2 {
+    background-image: url("/public/images/Section\ 2\ \(2\).jpg") !important;
+    background-position: center center !important;
+    width: auto;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: center !important;
+}
+.container-bgfix {
+    background-color: rgb(37, 0, 0);
+}
+.text-formatchanging {
+    font-family: "Times New Roman", Times, serif;
+}
+.border-bottom-dotted {
+    border-bottom: 1px dotted white;
+}
+// contact style
+.full-width-bg-transparent {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 6px;
+    color: white !important;
+}
+.row>* {
+    padding-left: calc(var(--bs-gutter-x) * .0) !important;}
+    .full-width-bg-transparent::placeholder {
+        color: white;
+    }
+    .full-width-bg-transparent {
+        color: white;
+    }
+    .full-width-bg-transparent::before {
+        content: "\231A"; 
+        color:white; 
+    }/* CSS */
+.transparent-bg {
+    background-color: transparent !important;
+}
